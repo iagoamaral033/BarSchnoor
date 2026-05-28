@@ -1,4 +1,4 @@
-﻿namespace BarScnhoor.Entidades
+﻿namespace BarSchnoor.Entidades
 {
     public class Class1
     {
