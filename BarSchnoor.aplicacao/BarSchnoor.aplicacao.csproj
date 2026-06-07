@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BarDoKBecao.Entidades\BarDoKBecao.Entidades.csproj" />
-    <ProjectReference Include="..\BarDoKBecao.Infra\BarDoKBecao.Infra.csproj" />
+    <ProjectReference Include="..\BarSchnoor.Entidades\BarSchnoor.Entidades.csproj" />
+    <ProjectReference Include="..\BarSchnoor.Infra\BarSchnoor.Infra.csproj" />
   </ItemGroup>
 
 </Project>

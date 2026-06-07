@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BarDoKBecao.API.Controllers
+namespace BarSchnoor.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

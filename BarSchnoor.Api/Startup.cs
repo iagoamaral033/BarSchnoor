@@ -1,5 +1,5 @@
-using BarDoKBecao.Infra.Contexto;
-using BarDoKBecao.Infra.Repositorio;
+using BarSchnoor.Infra.Contexto;
+using BarSchnoor.Infra.Repositorio;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BarDoKBecao.API
+namespace BarSchnoor.Api
 {
     public class Startup
     {
@@ -59,11 +59,11 @@ namespace BarDoKBecao.API
             });
 
             app.UseSwagger();
-            app.UseSwaggerUI(app =>
-            {
-                app.RoutePrefix = "";
-                app.SwaggerEndpoint("/swagger/v1/swagger.json", "APIBarKbe��o");
-            });
+                app.UseSwaggerUI(app =>
+                {
+                    app.RoutePrefix = "";
+                    app.SwaggerEndpoint("/swagger/v1/swagger.json", "API BarSchnoor");
+                });
         }
     }
 }
