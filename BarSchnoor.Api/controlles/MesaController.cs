@@ -15,12 +15,12 @@ namespace BarSchnoor.Api.Controllers
         [HttpGet]
         public ActionResult<List<Mesa>> Get()
         {
-            return Ok(Mesa.Listar());
+            return Ok(new List<Mesa>());
         }
+
         [HttpPost]
         public ActionResult<Mesa> Post(Mesa mesa)
         {
-            Mesa.Cadastrar(mesa);
             return Ok(mesa);
         }
     }
